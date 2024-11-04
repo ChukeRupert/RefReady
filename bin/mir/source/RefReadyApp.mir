@@ -1,0 +1,95 @@
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 5; ]
+class RefReadyApp extends Application.AppBase{
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 7; @position = 16; ]
+    private
+    var _view;
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_8_26_10_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc" 9 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_8_26_10_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 13; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 17; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 21; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_21_68_24_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc" 22 8 ]
+        %tmp.4 = getv ? :RefReadyView;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :_view %tmp.1;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc" 23 8 ]
+        %tmp.5 = newa 2;
+        %tmp.7 = getv ? :_view;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 0 %tmp.7;
+        %tmp.13 = getv ? :MatchDelegate;
+        %tmp.10 = newc %tmp.13 ();
+        %tmp.14 = dup %tmp.9;
+        %tmp.15 = aputv %tmp.14 1 %tmp.10;
+        ret %tmp.15;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_21_68_24_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 26; ]
+    function getView() as RefReadyView {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_26_39_28_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc" 27 8 ]
+        %tmp.2 = getv ? :_view;
+        ret %tmp.2;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_26_39_28_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 30; ]
+    function updateView(newView as View) as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_30_48_32_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc" 31 8 ]
+        %tmp.2 = lgetv %newView;
+        putv self :_view %tmp.2;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_30_48_32_4_stop:
+    }
+}
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 35; ]
+function getApp() as RefReadyApp {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_35_33_37_0_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc" 36 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 RefReadyApp;
+    ret %tmp.4;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_35_33_37_0_stop:
+}
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 39; ]
+function getView() as RefReadyView {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_39_35_41_0_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc" 40 4 ]
+    %tmp.1 = self;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = getv function %tmp.3 :getView;
+    %tmp.5 = invoke %tmp.3 %tmp.4();
+    ret %tmp.5;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyApp_mc_39_35_41_0_stop:
+}
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyApp.mc"; @line = 1; ]
+<init> {
+}

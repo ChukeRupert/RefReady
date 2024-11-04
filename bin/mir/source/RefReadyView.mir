@@ -1,0 +1,260 @@
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 4; ]
+class RefReadyView extends WatchUi.View{
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 6; @position = 16; ]
+    private
+    var _countupTimerElement;
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 7; @position = 16; ]
+    private
+    var _countdownTimerElement;
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 8; @position = 16; ]
+    private
+    var _addedTimeElement;
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 10; ]
+    function initialize() as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_10_26_12_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 11 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_10_26_12_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 15; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_15_40_22_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 16 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 18 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "countup_timer";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :_countupTimerElement %tmp.13;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 19 8 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :findDrawableById;
+        %tmp.16 = "countdown_timer";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        putv self :_countdownTimerElement %tmp.17;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 20 8 ]
+        %tmp.18 = self;
+        %tmp.19 = getv function %tmp.18 :findDrawableById;
+        %tmp.20 = "curr_time";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        putv self :_addedTimeElement %tmp.21;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_15_40_22_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 27; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 31; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_31_40_34_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 33 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_31_40_34_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 36; ]
+    function setUpTimerValue(value) as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 37 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_stop" ]
+        %minutes.1 = local;
+        %tmp.2 = lgetv %value;
+        %tmp.3 = 60;
+        %tmp.4 = div %tmp.2 %tmp.3;
+        lputv %minutes.1 %tmp.4;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 39 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_stop" ]
+        %seconds.2 = local;
+        %tmp.6 = lgetv %value;
+        %tmp.7 = 60;
+        %tmp.8 = mod %tmp.6 %tmp.7;
+        lputv %seconds.2 %tmp.8;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 40 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_stop" ]
+        %secondsFormatted.3 = local;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_begin:
+        %tmp.10 = lgetv %seconds.2;
+        %tmp.11 = 9;
+        %tmp.12 = gt %tmp.10 %tmp.11;
+        bf %tmp.12 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_false;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_true:
+        %tmp.13 = lgetv %seconds.2;
+        %tmp.14 = getv function %tmp.13 :toString;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        push %tmp.15;
+        goto @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_end;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_false:
+        %tmp.16 = "0";
+        %tmp.17 = lgetv %seconds.2;
+        %tmp.18 = getv function %tmp.17 :toString;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = add %tmp.16 %tmp.19;
+        push %tmp.20;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_end:
+        %tmp.21 = phi [%tmp.12 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_begin] [%tmp.15 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_true] [%tmp.20 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_false] [%tmp.21 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_40_31_40_89_end];
+        lputv %secondsFormatted.3 %tmp.21;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 42 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_stop" ]
+        %formattedValue.4 = local;
+        %tmp.22 = lgetv %minutes.1;
+        %tmp.23 = getv function %tmp.22 :toString;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = ":";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        %tmp.28 = lgetv %secondsFormatted.3;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        lputv %formattedValue.4 %tmp.29;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 44 8 ]
+        %tmp.31 = getv ? :_countupTimerElement;
+        %tmp.32 = getv function %tmp.31 :setText;
+        %tmp.34 = lgetv %formattedValue.4;
+        invoke %tmp.31 %tmp.32(%tmp.34);
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_36_44_47_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 49; ]
+    function setDownTimerValue(value) as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 50 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_stop" ]
+        %minutes.1 = local;
+        %tmp.2 = lgetv %value;
+        %tmp.3 = 60;
+        %tmp.4 = div %tmp.2 %tmp.3;
+        lputv %minutes.1 %tmp.4;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 52 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_stop" ]
+        %seconds.2 = local;
+        %tmp.6 = lgetv %value;
+        %tmp.7 = 60;
+        %tmp.8 = mod %tmp.6 %tmp.7;
+        lputv %seconds.2 %tmp.8;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 53 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_stop" ]
+        %secondsFormatted.3 = local;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_begin:
+        %tmp.10 = lgetv %seconds.2;
+        %tmp.11 = 9;
+        %tmp.12 = gt %tmp.10 %tmp.11;
+        bf %tmp.12 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_false;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_true:
+        %tmp.13 = lgetv %seconds.2;
+        %tmp.14 = getv function %tmp.13 :toString;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        push %tmp.15;
+        goto @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_end;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_false:
+        %tmp.16 = "0";
+        %tmp.17 = lgetv %seconds.2;
+        %tmp.18 = getv function %tmp.17 :toString;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = add %tmp.16 %tmp.19;
+        push %tmp.20;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_end:
+        %tmp.21 = phi [%tmp.12 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_begin] [%tmp.15 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_true] [%tmp.20 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_false] [%tmp.21 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_53_31_53_89_end];
+        lputv %secondsFormatted.3 %tmp.21;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 55 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_stop" ]
+        %formattedValue.4 = local;
+        %tmp.22 = lgetv %minutes.1;
+        %tmp.23 = getv function %tmp.22 :toString;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = ":";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        %tmp.28 = lgetv %secondsFormatted.3;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        lputv %formattedValue.4 %tmp.29;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 57 8 ]
+        %tmp.31 = getv ? :_countdownTimerElement;
+        %tmp.32 = getv function %tmp.31 :setText;
+        %tmp.34 = lgetv %formattedValue.4;
+        invoke %tmp.31 %tmp.32(%tmp.34);
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_49_46_60_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 62; ]
+    function setAddedTimerValue(value) as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 63 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_stop" ]
+        %minutes.1 = local;
+        %tmp.2 = lgetv %value;
+        %tmp.3 = 60;
+        %tmp.4 = div %tmp.2 %tmp.3;
+        lputv %minutes.1 %tmp.4;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 65 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_stop" ]
+        %seconds.2 = local;
+        %tmp.6 = lgetv %value;
+        %tmp.7 = 60;
+        %tmp.8 = mod %tmp.6 %tmp.7;
+        lputv %seconds.2 %tmp.8;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 66 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_stop" ]
+        %secondsFormatted.3 = local;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_begin:
+        %tmp.10 = lgetv %seconds.2;
+        %tmp.11 = 9;
+        %tmp.12 = gt %tmp.10 %tmp.11;
+        bf %tmp.12 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_false;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_true:
+        %tmp.13 = lgetv %seconds.2;
+        %tmp.14 = getv function %tmp.13 :toString;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        push %tmp.15;
+        goto @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_end;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_false:
+        %tmp.16 = "0";
+        %tmp.17 = lgetv %seconds.2;
+        %tmp.18 = getv function %tmp.17 :toString;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = add %tmp.16 %tmp.19;
+        push %tmp.20;
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_end:
+        %tmp.21 = phi [%tmp.12 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_begin] [%tmp.15 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_true] [%tmp.20 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_false] [%tmp.21 @C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_66_31_66_89_end];
+        lputv %secondsFormatted.3 %tmp.21;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 68 8 ]
+        [ "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_start" "C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_stop" ]
+        %formattedValue.4 = local;
+        %tmp.22 = lgetv %minutes.1;
+        %tmp.23 = getv function %tmp.22 :toString;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = ":";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        %tmp.28 = lgetv %secondsFormatted.3;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        lputv %formattedValue.4 %tmp.29;
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc" 70 8 ]
+        %tmp.31 = getv ? :_addedTimeElement;
+        %tmp.32 = getv function %tmp.31 :setText;
+        %tmp.34 = lgetv %formattedValue.4;
+        invoke %tmp.31 %tmp.32(%tmp.34);
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_RefReadyView_mc_62_47_73_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 78; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\RefReadyView.mc"; @line = 1; ]
+<init> {
+}

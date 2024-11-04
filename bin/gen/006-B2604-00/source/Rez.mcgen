@@ -1,0 +1,53 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Layouts {
+        function BreakLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_1177759488 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>(240 * (20 / 100.0)), :text=>$.Rez.Strings.halftime, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_countup_timer = new WatchUi.Text({:identifier=>"countup_timer", :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Gfx.FONT_NUMBER_HOT)) * 0.5), :text=>"0:00", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_HOT});
+
+            var rez_cmp_local_text_curr_time = new WatchUi.Text({:identifier=>"curr_time", :color=>Graphics.COLOR_LT_GRAY, :locX=>(240 * 0.5), :locY=>(240 * (85 / 100.0)), :text=>" ", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            return [rez_cmp_local_text_1177759488, rez_cmp_local_text_countup_timer, rez_cmp_local_text_curr_time] as Array<WatchUi.Drawable>;
+        }
+
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_1478294973 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>(240 * (20 / 100.0)), :text=>$.Rez.Strings.AppName, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_countup_timer = new WatchUi.Text({:identifier=>"countup_timer", :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Gfx.FONT_NUMBER_HOT)) * 0.5), :text=>"0:00", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_HOT});
+
+            var rez_cmp_local_text_countdown_timer = new WatchUi.Text({:identifier=>"countdown_timer", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>(240 * (70 / 100.0)), :text=>"45:00", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_curr_time = new WatchUi.Text({:identifier=>"curr_time", :color=>Graphics.COLOR_LT_GRAY, :locX=>(240 * 0.5), :locY=>(240 * (85 / 100.0)), :text=>"12:00", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            return [rez_cmp_local_text_1478294973, rez_cmp_local_text_countup_timer, rez_cmp_local_text_countdown_timer, rez_cmp_local_text_curr_time] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+        class MainMenu extends WatchUi.Menu {
+            function initialize() {
+                Menu.initialize();
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_StartMatch) as String), :item_1);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_SyncMatch) as String), :item_2);
+            }
+        }
+    } // Menus
+
+    module Strings {
+        (:initialized) var menu_label_SyncMatch as ResourceId;
+        (:initialized) var menu_label_Settings as ResourceId;
+        (:initialized) var halftime as ResourceId;
+        (:initialized) var menu_label_StartMatch as ResourceId;
+        (:initialized) var AppName as ResourceId;
+    } // Strings
+} // Rez

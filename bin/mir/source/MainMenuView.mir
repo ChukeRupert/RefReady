@@ -1,0 +1,57 @@
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 1; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 2; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 3; ]
+using Toybox.System;
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 5; ]
+class MainMenuView extends WatchUi.XmlView{
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 7; ]
+    function initialize() as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_MainMenuView_mc_7_26_9_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc" 8 8 ]
+        %tmp.2 = getv ? :XmlView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = getv ? :Resource;
+        %tmp.6 = getv function %tmp.5 :getLayout;
+        %tmp.7 = "layout.xml";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.2 %tmp.3(%tmp.8);
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_MainMenuView_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 11; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_MainMenuView_mc_11_40_13_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc" 12 8 ]
+        %tmp.2 = getv ? :XmlView;
+        %tmp.3 = getv function %tmp.2 :onLayout;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_MainMenuView_mc_11_40_13_4_stop:
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 15; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_MainMenuView_mc_15_40_18_4_start:
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc" 16 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :onLayout;
+        %tmp.4 = lgetv %dc;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc" 17 8 ]
+        %tmp.6 = getv ? :XmlView;
+        %tmp.7 = getv function %tmp.6 :onUpdate;
+        %tmp.9 = lgetv %dc;
+        invoke %tmp.6 %tmp.7(%tmp.9);
+C_Users_Chuke_VSCode_projects_GARMIN_CIQ_CIQ_Projects_RefReady_RefReady_source_MainMenuView_mc_15_40_18_4_stop:
+    }
+}
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\MainMenuView.mc"; @line = 1; ]
+<init> {
+}

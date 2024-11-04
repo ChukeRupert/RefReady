@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyDelegate.mc" id="1" lineNum="4" parent="globals/RefReadyDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="2" lineNum="35" parent="globals" pc="268435479" symbol="getApp"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="2" lineNum="36" parent="globals" pc="268435489" symbol="getApp"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyMenuDelegate.mc" id="3" lineNum="5" parent="globals/RefReadyMenuDelegate" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="4" lineNum="5" parent="globals/RefReadyApp" pc="268435524" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435543" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="6" lineNum="7" parent="globals/MatchDelegate" pc="268435567" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="6" lineNum="32" parent="globals/MatchDelegate" pc="268435585" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="6" lineNum="33" parent="globals/MatchDelegate" pc="268435619" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="7" lineNum="11" parent="globals/MatchDelegate/&lt;statics&gt;" pc="268435639" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="7" lineNum="18" parent="globals/MatchDelegate/&lt;statics&gt;" pc="268435785" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="8" lineNum="7" parent="globals/playPeriod" pc="268435932" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="8" lineNum="25" parent="globals/playPeriod" pc="268435950" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="9" lineNum="11" parent="globals/playPeriod/&lt;statics&gt;" pc="268435985" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="10" lineNum="4" parent="globals/RefReadyView" pc="268436132" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="11" lineNum="39" parent="globals" pc="268436151" symbol="getView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="11" lineNum="40" parent="globals" pc="268436161" symbol="getView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyDelegate.mc" id="12" lineNum="10" parent="globals/RefReadyDelegate" pc="268436182" symbol="onMenu"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyDelegate.mc" id="12" lineNum="11" parent="globals/RefReadyDelegate" pc="268436184" symbol="onMenu"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyDelegate.mc" id="12" lineNum="12" parent="globals/RefReadyDelegate" pc="268436269" symbol="onMenu"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyDelegate.mc" id="13" lineNum="6" parent="globals/RefReadyDelegate" pc="268436272" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyDelegate.mc" id="13" lineNum="7" parent="globals/RefReadyDelegate" pc="268436274" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyMenuDelegate.mc" id="14" lineNum="11" parent="globals/RefReadyMenuDelegate" pc="268436293" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyMenuDelegate.mc" id="14" lineNum="12" parent="globals/RefReadyMenuDelegate" pc="268436295" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyMenuDelegate.mc" id="14" lineNum="13" parent="globals/RefReadyMenuDelegate" pc="268436306" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyMenuDelegate.mc" id="14" lineNum="14" parent="globals/RefReadyMenuDelegate" pc="268436330" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyMenuDelegate.mc" id="14" lineNum="15" parent="globals/RefReadyMenuDelegate" pc="268436341" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyMenuDelegate.mc" id="15" lineNum="7" parent="globals/RefReadyMenuDelegate" pc="268436366" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyMenuDelegate.mc" id="15" lineNum="8" parent="globals/RefReadyMenuDelegate" pc="268436368" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="16" lineNum="13" parent="globals/RefReadyApp" pc="268436387" symbol="onStart"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="17" lineNum="30" parent="globals/RefReadyApp" pc="268436390" symbol="updateView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="17" lineNum="31" parent="globals/RefReadyApp" pc="268436392" symbol="updateView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="18" lineNum="21" parent="globals/RefReadyApp" pc="268436403" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="18" lineNum="22" parent="globals/RefReadyApp" pc="268436405" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="18" lineNum="23" parent="globals/RefReadyApp" pc="268436439" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="19" lineNum="8" parent="globals/RefReadyApp" pc="268436496" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="19" lineNum="9" parent="globals/RefReadyApp" pc="268436498" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="20" lineNum="26" parent="globals/RefReadyApp" pc="268436517" symbol="getView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="20" lineNum="27" parent="globals/RefReadyApp" pc="268436519" symbol="getView"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyApp.mc" id="21" lineNum="17" parent="globals/RefReadyApp" pc="268436528" symbol="onStop"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="22" lineNum="42" parent="globals/MatchDelegate" pc="268436531" symbol="onMenu"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="22" lineNum="43" parent="globals/MatchDelegate" pc="268436533" symbol="onMenu"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="22" lineNum="44" parent="globals/MatchDelegate" pc="268436618" symbol="onMenu"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="23" lineNum="47" parent="globals/MatchDelegate" pc="268436621" symbol="onSelect"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="23" lineNum="48" parent="globals/MatchDelegate" pc="268436623" symbol="onSelect"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="23" lineNum="49" parent="globals/MatchDelegate" pc="268436635" symbol="onSelect"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="23" lineNum="52" parent="globals/MatchDelegate" pc="268436688" symbol="onSelect"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="25" lineNum="37" parent="globals/MatchDelegate" pc="268436691" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="25" lineNum="38" parent="globals/MatchDelegate" pc="268436693" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\MatchDelegate.mc" id="25" lineNum="39" parent="globals/MatchDelegate" pc="268436711" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="27" lineNum="36" parent="globals/playPeriod" pc="268436725" symbol="onSelect"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="27" lineNum="37" parent="globals/playPeriod" pc="268436727" symbol="onSelect"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="27" lineNum="38" parent="globals/playPeriod" pc="268436744" symbol="onSelect"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="28" lineNum="58" parent="globals/playPeriod" pc="268436747" symbol="startCountdown"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="28" lineNum="60" parent="globals/playPeriod" pc="268436749" symbol="startCountdown"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="28" lineNum="62" parent="globals/playPeriod" pc="268436759" symbol="startCountdown"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="29" lineNum="28" parent="globals/playPeriod" pc="268436801" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="29" lineNum="29" parent="globals/playPeriod" pc="268436803" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="29" lineNum="30" parent="globals/playPeriod" pc="268436819" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="29" lineNum="31" parent="globals/playPeriod" pc="268436829" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="29" lineNum="33" parent="globals/playPeriod" pc="268436848" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="41" parent="globals/playPeriod" pc="268436861" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="43" parent="globals/playPeriod" pc="268436863" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="44" parent="globals/playPeriod" pc="268436874" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="47" parent="globals/playPeriod" pc="268436896" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="50" parent="globals/playPeriod" pc="268436915" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="51" parent="globals/playPeriod" pc="268436934" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="52" parent="globals/playPeriod" pc="268436960" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="53" parent="globals/playPeriod" pc="268436986" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\playPeriod.mc" id="30" lineNum="55" parent="globals/playPeriod" pc="268437012" symbol="updateTimers"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="31" lineNum="62" parent="globals/RefReadyView" pc="268437029" symbol="setAddedTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="31" lineNum="63" parent="globals/RefReadyView" pc="268437033" symbol="setAddedTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="31" lineNum="65" parent="globals/RefReadyView" pc="268437043" symbol="setAddedTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="31" lineNum="66" parent="globals/RefReadyView" pc="268437053" symbol="setAddedTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="31" lineNum="68" parent="globals/RefReadyView" pc="268437097" symbol="setAddedTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="31" lineNum="70" parent="globals/RefReadyView" pc="268437119" symbol="setAddedTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="33" lineNum="36" parent="globals/RefReadyView" pc="268437140" symbol="setUpTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="33" lineNum="37" parent="globals/RefReadyView" pc="268437144" symbol="setUpTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="33" lineNum="39" parent="globals/RefReadyView" pc="268437154" symbol="setUpTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="33" lineNum="40" parent="globals/RefReadyView" pc="268437164" symbol="setUpTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="33" lineNum="42" parent="globals/RefReadyView" pc="268437208" symbol="setUpTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="33" lineNum="44" parent="globals/RefReadyView" pc="268437230" symbol="setUpTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="34" lineNum="15" parent="globals/RefReadyView" pc="268437251" symbol="onLayout"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="34" lineNum="16" parent="globals/RefReadyView" pc="268437253" symbol="onLayout"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="34" lineNum="18" parent="globals/RefReadyView" pc="268437294" symbol="onLayout"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="34" lineNum="19" parent="globals/RefReadyView" pc="268437318" symbol="onLayout"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="34" lineNum="20" parent="globals/RefReadyView" pc="268437342" symbol="onLayout"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="35" lineNum="10" parent="globals/RefReadyView" pc="268437367" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="35" lineNum="11" parent="globals/RefReadyView" pc="268437369" symbol="initialize"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="36" lineNum="49" parent="globals/RefReadyView" pc="268437388" symbol="setDownTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="36" lineNum="50" parent="globals/RefReadyView" pc="268437392" symbol="setDownTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="36" lineNum="52" parent="globals/RefReadyView" pc="268437402" symbol="setDownTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="36" lineNum="53" parent="globals/RefReadyView" pc="268437412" symbol="setDownTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="36" lineNum="55" parent="globals/RefReadyView" pc="268437456" symbol="setDownTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="36" lineNum="57" parent="globals/RefReadyView" pc="268437478" symbol="setDownTimerValue"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="38" lineNum="31" parent="globals/RefReadyView" pc="268437499" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\source\\RefReadyView.mc" id="38" lineNum="33" parent="globals/RefReadyView" pc="268437501" symbol="onUpdate"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="39" lineNum="23" parent="globals/Rez/Layouts" pc="268437522" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="39" lineNum="24" parent="globals/Rez/Layouts" pc="268437534" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="39" lineNum="26" parent="globals/Rez/Layouts" pc="268437665" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="39" lineNum="28" parent="globals/Rez/Layouts" pc="268437800" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="39" lineNum="30" parent="globals/Rez/Layouts" pc="268437925" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="39" lineNum="32" parent="globals/Rez/Layouts" pc="268438050" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="40" lineNum="13" parent="globals/Rez/Layouts" pc="268438097" symbol="BreakLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="40" lineNum="14" parent="globals/Rez/Layouts" pc="268438109" symbol="BreakLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="40" lineNum="16" parent="globals/Rez/Layouts" pc="268438240" symbol="BreakLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="40" lineNum="18" parent="globals/Rez/Layouts" pc="268438375" symbol="BreakLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="40" lineNum="20" parent="globals/Rez/Layouts" pc="268438500" symbol="BreakLayout"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="41" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268438537" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="42" lineNum="38" parent="globals/Rez/Menus/MainMenu" pc="268438556" symbol="initialize"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="42" lineNum="39" parent="globals/Rez/Menus/MainMenu" pc="268438558" symbol="initialize"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="42" lineNum="40" parent="globals/Rez/Menus/MainMenu" pc="268438576" symbol="initialize"/>
+<entry filename="c:\\Users\\Chuke\\VSCode_projects\\GARMIN_CIQ\\CIQ_Projects\\RefReady\\RefReady\\bin\\gen\\006-B2604-00\\source\\Rez.mcgen" id="42" lineNum="41" parent="globals/Rez/Menus/MainMenu" pc="268438632" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="44" symbol="&lt;globals/playPeriod/&lt;statics&gt;/&lt;&gt;totalSeconds&gt;"/>
+<entry field="true" id="36" symbol="&lt;globals/playPeriod/&lt;&gt;_currentUp&gt;"/>
+<entry id="8389346" symbol="text"/>
+<entry id="42" method="true" symbol="updateTimers"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="6" module="true" symbol="globals/Rez/Menus"/>
+<entry id="2" module="true" symbol="globals/MatchDelegate/&lt;statics&gt;"/>
+<entry id="53" method="true" symbol="MainLayout"/>
+<entry field="true" id="33" symbol="&lt;globals/MatchDelegate/&lt;statics&gt;/&lt;&gt;totalSeconds&gt;"/>
+<entry field="true" id="39" symbol="&lt;globals/playPeriod/&lt;&gt;_timer&gt;"/>
+<entry id="11" object="true" symbol="RefReadyDelegate"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="57" symbol="menu_label_Settings"/>
+<entry id="10" object="true" symbol="RefReadyApp"/>
+<entry field="true" id="55" symbol="AppName"/>
+<entry id="7" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry field="true" id="31" symbol="&lt;globals/MatchDelegate/&lt;statics&gt;/&lt;&gt;halfLength&gt;"/>
+<entry id="3" module="true" symbol="globals/Rez"/>
+<entry field="true" id="46" symbol="&lt;globals/RefReadyView/&lt;&gt;_countdownTimerElement&gt;"/>
+<entry id="48" method="true" symbol="setAddedTimerValue"/>
+<entry field="true" id="38" symbol="&lt;globals/playPeriod/&lt;&gt;_periodType&gt;"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="22" symbol="&lt;globals/MatchDelegate/&lt;&gt;_currentPeriodType&gt;"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="61" symbol="item_2"/>
+<entry id="60" symbol="item_1"/>
+<entry id="19" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="23" symbol="&lt;globals/MatchDelegate/&lt;&gt;_currentUp&gt;"/>
+<entry id="12" object="true" symbol="RefReadyMenuDelegate"/>
+<entry field="true" id="45" symbol="&lt;globals/RefReadyView/&lt;&gt;_addedTimeElement&gt;"/>
+<entry id="15" object="true" symbol="playPeriod"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="27" symbol="&lt;globals/MatchDelegate/&lt;&gt;_playPeriod&gt;"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="49" method="true" symbol="setDownTimerValue"/>
+<entry field="true" id="20" symbol="&lt;globals/MatchDelegate/&lt;&gt;_currentAdded&gt;"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="30" symbol="&lt;globals/MatchDelegate/&lt;statics&gt;/&lt;&gt;endVibeData&gt;"/>
+<entry id="13" object="true" symbol="RefReadyView"/>
+<entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="41" method="true" symbol="startCountdown"/>
+<entry id="54" object="true" symbol="MainMenu"/>
+<entry field="true" id="21" symbol="&lt;globals/MatchDelegate/&lt;&gt;_currentDown&gt;"/>
+<entry id="52" method="true" symbol="BreakLayout"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="14" object="true" symbol="periods"/>
+<entry field="true" id="59" symbol="menu_label_SyncMatch"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="37" symbol="&lt;globals/playPeriod/&lt;&gt;_isPaused&gt;"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="24" symbol="&lt;globals/MatchDelegate/&lt;&gt;_inProgress&gt;"/>
+<entry field="true" id="35" symbol="&lt;globals/playPeriod/&lt;&gt;_currentDown&gt;"/>
+<entry field="true" id="51" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="58" symbol="menu_label_StartMatch"/>
+<entry id="9" object="true" symbol="MatchDelegate"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="28" symbol="&lt;globals/MatchDelegate/&lt;&gt;_timer&gt;"/>
+<entry field="true" id="32" symbol="&lt;globals/MatchDelegate/&lt;statics&gt;/&lt;&gt;startVibeData&gt;"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="25" symbol="&lt;globals/MatchDelegate/&lt;&gt;_isPaused&gt;"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="56" symbol="halftime"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="47" symbol="&lt;globals/RefReadyView/&lt;&gt;_countupTimerElement&gt;"/>
+<entry id="8" module="true" symbol="globals/playPeriod/&lt;statics&gt;"/>
+<entry field="true" id="43" symbol="&lt;globals/playPeriod/&lt;statics&gt;/&lt;&gt;endVibeData&gt;"/>
+<entry field="true" id="16" symbol="&lt;globals/RefReadyApp/&lt;&gt;_view&gt;"/>
+<entry id="17" method="true" symbol="updateView"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry id="8389347" symbol="color"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="18" module="true" symbol="Layouts"/>
+<entry field="true" id="34" symbol="&lt;globals/playPeriod/&lt;&gt;_currentAdded&gt;"/>
+<entry field="true" id="26" symbol="&lt;globals/MatchDelegate/&lt;&gt;_period&gt;"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry field="true" id="40" symbol="&lt;globals/playPeriod/&lt;&gt;_view&gt;"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8391945" method="true" symbol="getView"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="29" symbol="&lt;globals/MatchDelegate/&lt;&gt;_view&gt;"/>
+<entry id="50" method="true" symbol="setUpTimerValue"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268436365" name="item" stackId="1" startPc="268436293"/>
+<entry arg="true" endPc="268436402" name="newView" stackId="1" startPc="268436390"/>
+<entry arg="true" endPc="268436860" name="halfLen" stackId="1" startPc="268436801"/>
+<entry arg="true" endPc="268436860" name="periodType" stackId="2" startPc="268436801"/>
+<entry arg="true" endPc="268437139" name="value" stackId="1" startPc="268437029"/>
+<entry endPc="268437138" name="minutes" stackId="2" startPc="268437033"/>
+<entry endPc="268437138" name="seconds" stackId="3" startPc="268437033"/>
+<entry endPc="268437138" name="secondsFormatted" stackId="4" startPc="268437033"/>
+<entry endPc="268437138" name="formattedValue" stackId="5" startPc="268437033"/>
+<entry arg="true" endPc="268437250" name="value" stackId="1" startPc="268437140"/>
+<entry endPc="268437249" name="minutes" stackId="2" startPc="268437144"/>
+<entry endPc="268437249" name="seconds" stackId="3" startPc="268437144"/>
+<entry endPc="268437249" name="secondsFormatted" stackId="4" startPc="268437144"/>
+<entry endPc="268437249" name="formattedValue" stackId="5" startPc="268437144"/>
+<entry arg="true" endPc="268437366" name="dc" stackId="1" startPc="268437251"/>
+<entry arg="true" endPc="268437498" name="value" stackId="1" startPc="268437388"/>
+<entry endPc="268437497" name="minutes" stackId="2" startPc="268437392"/>
+<entry endPc="268437497" name="seconds" stackId="3" startPc="268437392"/>
+<entry endPc="268437497" name="secondsFormatted" stackId="4" startPc="268437392"/>
+<entry endPc="268437497" name="formattedValue" stackId="5" startPc="268437392"/>
+<entry arg="true" endPc="268437521" name="dc" stackId="1" startPc="268437499"/>
+<entry arg="true" endPc="268438096" name="dc" stackId="1" startPc="268437522"/>
+<entry endPc="268438096" name="rez_cmp_local_text_1478294973" stackId="2" startPc="268437534"/>
+<entry endPc="268438096" name="rez_cmp_local_text_countup_timer" stackId="3" startPc="268437534"/>
+<entry endPc="268438096" name="rez_cmp_local_text_countdown_timer" stackId="4" startPc="268437534"/>
+<entry endPc="268438096" name="rez_cmp_local_text_curr_time" stackId="5" startPc="268437534"/>
+<entry arg="true" endPc="268438536" name="dc" stackId="1" startPc="268438097"/>
+<entry endPc="268438536" name="rez_cmp_local_text_1177759488" stackId="2" startPc="268438109"/>
+<entry endPc="268438536" name="rez_cmp_local_text_countup_timer" stackId="3" startPc="268438109"/>
+<entry endPc="268438536" name="rez_cmp_local_text_curr_time" stackId="4" startPc="268438109"/>
+</localVars>
+<deviceInfo partNumber="006-B2604-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_Settings"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_StartMatch"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="halftime"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_SyncMatch"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/RefReadyDelegate" offset="206" parentId="globals" symbolId="RefReadyDelegate" type="class"/>
+<dataEntry label="globals/RefReadyMenuDelegate" offset="261" parentId="globals" symbolId="RefReadyMenuDelegate" type="class"/>
+<dataEntry label="globals/RefReadyApp" offset="316" parentId="globals" symbolId="RefReadyApp" type="class"/>
+<dataEntry label="globals/Rez" offset="411" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/MatchDelegate" offset="474" parentId="globals" symbolId="MatchDelegate" type="class"/>
+<dataEntry label="globals/MatchDelegate/&lt;statics&gt;" offset="625" parentId="MatchDelegate" symbolId="&lt;statics&gt;" type="module"/>
+<dataEntry label="globals/periods" offset="688" parentId="globals" symbolId="periods" type="class"/>
+<dataEntry label="globals/playPeriod" offset="735" parentId="globals" symbolId="playPeriod" type="class"/>
+<dataEntry label="globals/playPeriod/&lt;statics&gt;" offset="862" parentId="playPeriod" symbolId="&lt;statics&gt;" type="module"/>
+<dataEntry label="globals/RefReadyView" offset="909" parentId="globals" symbolId="RefReadyView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1036" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1075" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1122" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1161" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="1232" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="RefReadyDelegate" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435523" name="&lt;init&gt;" parent="RefReadyMenuDelegate" startPc="268435505">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435542" name="&lt;init&gt;" parent="RefReadyApp" startPc="268435524">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435566" name="&lt;init&gt;" parent="Rez" startPc="268435543">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435638" name="&lt;init&gt;" parent="MatchDelegate" startPc="268435567">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435931" name="&lt;init&gt;" parent="globals/MatchDelegate" startPc="268435639">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="periods">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435984" name="&lt;init&gt;" parent="playPeriod" startPc="268435932">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436131" name="&lt;init&gt;" parent="globals/playPeriod" startPc="268435985">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436150" name="&lt;init&gt;" parent="RefReadyView" startPc="268436132">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436181" name="getView" startPc="268436151">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436271" name="onMenu" parent="RefReadyDelegate" startPc="268436182">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436292" name="initialize" parent="RefReadyDelegate" startPc="268436272">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436365" name="onMenuItem" parent="RefReadyMenuDelegate" startPc="268436293">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436386" name="initialize" parent="RefReadyMenuDelegate" startPc="268436366">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436389" name="onStart" parent="RefReadyApp" startPc="268436387">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436402" name="updateView" parent="RefReadyApp" startPc="268436390">
+<param id="newView"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436495" name="getInitialView" parent="RefReadyApp" startPc="268436403">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436516" name="initialize" parent="RefReadyApp" startPc="268436496">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436527" name="getView" parent="RefReadyApp" startPc="268436517">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436530" name="onStop" parent="RefReadyApp" startPc="268436528">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436620" name="onMenu" parent="MatchDelegate" startPc="268436531">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436690" name="onSelect" parent="MatchDelegate" startPc="268436621">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="MatchDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436724" name="initialize" parent="MatchDelegate" startPc="268436691">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="periods">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436746" name="onSelect" parent="playPeriod" startPc="268436725">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436800" name="startCountdown" parent="playPeriod" startPc="268436747">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436860" name="initialize" parent="playPeriod" startPc="268436801">
+<param id="halfLen"/>
+<param id="periodType"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437028" name="updateTimers" parent="playPeriod" startPc="268436861">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437139" name="setAddedTimerValue" parent="RefReadyView" startPc="268437029">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="RefReadyView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437250" name="setUpTimerValue" parent="RefReadyView" startPc="268437140">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437366" name="onLayout" parent="RefReadyView" startPc="268437251">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437387" name="initialize" parent="RefReadyView" startPc="268437367">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437498" name="setDownTimerValue" parent="RefReadyView" startPc="268437388">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="RefReadyView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437521" name="onUpdate" parent="RefReadyView" startPc="268437499">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438096" name="MainLayout" parent="Layouts" startPc="268437522">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438536" name="BreakLayout" parent="Layouts" startPc="268438097">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438555" name="&lt;init&gt;" parent="MainMenu" startPc="268438537">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438688" name="initialize" parent="MainMenu" startPc="268438556">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

@@ -1,0 +1,35 @@
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 1; ]
+class periods{
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 1; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 2; ]
+    static
+    enum periodType {
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 3; @position = 8; ]
+        MatchReady,
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 4; @position = 8; ]
+        FirstHalf,
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 5; @position = 8; ]
+        HalfTime,
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 6; @position = 8; ]
+        SecondHalf,
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 7; @position = 8; ]
+        EndRegTime,
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 8; @position = 8; ]
+        OvertimeOne,
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 9; @position = 8; ]
+        HalfOvertime,
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 10; @position = 8; ]
+        OvertimeTwo,
+        [ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 11; @position = 8; ]
+        EndGame
+    }
+}
+[ @file = "C:\Users\Chuke\VSCode_projects\GARMIN_CIQ\CIQ_Projects\RefReady\RefReady\source\enums\periods.mc"; @line = 1; ]
+<init> {
+}

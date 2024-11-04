@@ -1,0 +1,9 @@
+<strings>
+    <string id="AppName">RefReady</string>
+
+    <string id="halftime">Halftime</string>
+
+    <string id="menu_label_StartMatch">Start Match</string>
+    <string id="menu_label_SyncMatch">Sync Matches</string>
+    <string id="menu_label_Settings">Settings</string>
+</strings>
